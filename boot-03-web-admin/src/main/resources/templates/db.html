@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>操作数据库</title>
+</head>
+<body>
+<form th:action="@{/book}" method="post">
+    书名：<input type="text" name="bookName"><br/>
+    价格：<input type="text" name="price"><br/>
+    库存：<input type="text" name="stock"><br/>
+    <button type="submit">提交</button>
+</form>
+</body>
+</html>
