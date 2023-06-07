@@ -1,0 +1,6 @@
+person:
+  name: test-张三
+  age: 20
+
+server:
+  port: 7000
